@@ -1,0 +1,43 @@
+/* TDH Export Table */
+table.tdh-table { border-collapse: collapse; border:1px solid #aaaaaa; }
+table.tdh-table th { padding:0.5em 0.8em; border:1px solid #aaaaaa; background-color: #dddddd; }
+table.tdh-table td { padding:0.5em 0.8em; border:1px solid #aaaaaa; background-color: #ffffff; }
+/* Spinner */
+.tdh-spinner {
+	width: 1em;
+	height: 1em;
+	margin: 0px 10px;
+	border: 0.3em solid #666;
+	border-top: 0.3em solid rgba( 0, 0, 0, 0.1 );
+	border-radius: 50%;
+	animation: tdh-spinner-anime 1.1s infinite linear;
+	display: none; /* Hide at first */
+}
+/* Spinner animation */
+@keyframes tdh-spinner-anime {
+	0% {
+		-webkit-transform: rotate( 0deg );
+		transform: rotate( 0deg );
+	}
+	100% {
+		-webkit-transform: rotate( 360deg );
+		transform: rotate( 360deg );
+	}
+}
+/* Spinner active */
+.tdh-spinner-active {
+	display: block; /* Display spinner */
+}
+/* Spinner flex-box for position adjustment */
+.tdh-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;  /* vertically aligned */
+}
+/* List view of forms */
+.form-table li {
+	list-style: none;  /* Hide the dot */
+}

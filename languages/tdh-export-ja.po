@@ -1,0 +1,138 @@
+# LANGUAGE (LOCALE) translation for WordPress.
+# Copyright (C) 2021 WordPress contributors.
+# This file is distributed under the same license as the WordPress package.
+# HORISAWA Kotaro <horisaworks@gmail.com>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 5.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-27T02:19:35+00:00\n"
+"PO-Revision-Date: 2021-12-01 10:35+0900\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
+
+#: tdh-export.php:plugin_view()
+msgid "Check [Post Type] for which you want to export TDH."
+msgstr "TDHを出力したいページの【投稿タイプ】にチェック。"
+
+#: tdh-export.php:plugin_view()
+msgid "Select [Export method]."
+msgstr "【結果の出力方法】を選択。"
+
+#: tdh-export.php:plugin_view()
+msgid "Click [Export TDH]."
+msgstr "【TDH一覧表を作成】をクリック。"
+
+#: tdh-export.php:plugin_view()
+msgid ""
+"If you are using authentication functions on your site, you may not be able "
+"to export TDH. In that case, please log in to the site once and try again "
+"without closing your browser."
+msgstr ""
+"サイトに認証機能を使用しているとTDHを出力できないことがあります。その場合は"
+"サイトに一度ログインしてから、ブラウザを閉じずに再度試して下さい。"
+
+#: tdh-export.php:plugin_view()
+msgid "Post Type"
+msgstr "投稿タイプ"
+
+#: tdh-export.php:plugin_view()
+msgid "Pages"
+msgstr "固定ページ"
+
+#: tdh-export.php:plugin_view()
+msgid "Posts"
+msgstr "投稿"
+
+#: tdh-export.php:plugin_view()
+msgid "Export method"
+msgstr "結果の出力方法"
+
+#: tdh-export.php:plugin_view()
+msgid "Display only"
+msgstr "画面表示のみ"
+
+#: tdh-export.php:plugin_view()
+msgid "Display & CSV file (UTF-8)"
+msgstr "画面表示 ＆ CSVファイル (UTF-8)"
+
+#: tdh-export.php:plugin_view()
+msgid "Display & CSV file (SJIS)"
+msgstr "画面表示 ＆ CSVファイル (SJIS)"
+
+#: tdh-export.php:plugin_view()
+msgid "Export TDH"
+msgstr "TDH一覧表を作成"
+
+#: tdh-export.php:display_tdh()
+msgid "Title tag"
+msgstr "Titelタグ"
+
+#: tdh-export.php:display_tdh()
+msgid "Meta Description"
+msgstr "Meta Description"
+
+#: tdh-export.php:display_tdh()
+msgid "H tag"
+msgstr "Hタグ"
+
+#: tdh-export.php:run_tdh()
+msgid ""
+"Digest authentication is used on this site. It is not supported by this "
+"plugin."
+msgstr ""
+"このサイトではDigest認証が使われています。本プラグインのサポート外です。"
+
+#: tdh-export.php:run_tdh()
+msgid ""
+"Unknown authentication is used on this site. It is not supported by this "
+"plugin."
+msgstr ""
+"このサイトでは不明なHTTP認証が使われています。本プラグインのサポート外です。"
+
+#: tdh-export.php:run_tdh()
+msgid "Failed to display the results. Please try again."
+msgstr "結果の表示に失敗しました。やり直してください。"
+
+#: tdh-export.php:run_tdh()
+msgid "Failed to create CSV file. Please try again."
+msgstr "CSVファイルの作成に失敗しました。やり直してください。"
+
+#: tdh-export.php:run_tdh()
+msgid "Select [Export Method]."
+msgstr "【結果の出力方法】を選択してください。"
+
+#: tdh-export.php:run_tdh()
+msgid "Select [Post Type]."
+msgstr "【投稿タイプ】を選択してください。"
+
+#: tdh-export.php:analyze_tdh()
+msgid "Failed to authenticate."
+msgstr "WP管理者の認証に失敗しました。"
+
+#: tdh-export.php:analyze_tdh()
+msgid "Could not get the html source code."
+msgstr "htmlソースコードを取得できませんでした。"
+
+#: tdh-export.php:analyze_tdh()
+msgid "Failed to retrieve the page."
+msgstr "ページの取得に失敗しました。"
+
+#: tdh-export.php:analyze_tdh()
+msgid "does not have a public page."
+msgstr "には公開されているページがありません。"
+
+#: tdh-export.php:analyze_tdh()
+msgid "The selected post type is invalid."
+msgstr "選択された投稿タイプが不正です。"
+
+#: tdh-export.php:export_tdh()
+msgid "Download CSV file"
+msgstr "CSVファイルをダウンロード"
