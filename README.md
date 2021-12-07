@@ -36,11 +36,14 @@ How to use
 Upgrade Notice
 ------------
 
+### 1.0.4
+Fixed the spinner hide bug.
+
 ### 1.0.3
-Fixes minor bugs and reduced processing load.
+Fixed minor bugs and reduced processing load.
 
 ### 1.0.2
-Fixes minor bugs.
+Fixed minor bugs.
 
 ### 1.0.1
 Supports English (US).
