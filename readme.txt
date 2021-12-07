@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/paypalme/horisawak/
 Tags: tdh, title tag, meta, meta description, h tag, tdh export, tdh pickup, seo
 Requires at least: 4.7
 Tested up to: 5.8
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -51,12 +51,18 @@ Only public pages will export TDH. If you want to export TDH for non-public page
 
 If you are using authentication functions on your site, you may not be able to export TDH. In that case, please log in to the site once and try again without closing your browser.
 
+= Where can I report bugs and issues? =
+Please report bugs and issues on the plugin's [GitHub page](https://github.com/horisawak/tdh-export/).
+
 == Screenshots ==
 
 1. TDH Export operation screen.
 1. TDH Export result display.
 
 == Changelog ==
+
+= 1.0.4 (7th Dec, 2021) =
+* [ Bug fix ] Fixed a bug that the spinner was not displayed during processing.
 
 = 1.0.3 (5th Dec, 2021) =
 * [ Bug fix ] Fixed PHP warning issues when there are no public page.
@@ -74,6 +80,9 @@ If you are using authentication functions on your site, you may not be able to e
 * First Release.
 
 == Upgrade Notice ==
+
+= 1.0.4 =
+* This version fixes minor bugs.
 
 = 1.0.3 =
 * This version fixes minor bugs.

@@ -3,10 +3,12 @@
 Plugin Name: TDH Export
 Plugin URI: https://wordpress.org/plugins/tdh-export/
 Description:  Export TDH (Title-tag, meta Description, H-tag) with a single click.
-Version: 1.0.3
+Version: 1.0.4
 Author: HORISAWA Kotaro
-Author URI: 
+Author URI: https://github.com/horisawak/tdh-export/
 License: GPL2
+Text Domain: tdh-export
+Domain Path: /languages
 */
 
 /*
@@ -277,7 +279,7 @@ class TDH_Export_Main {
 				</table>
 				<div class="tdh-flex">
 					<input type="submit" class="btn button-primary" value="<?php _e('Export TDH', 'tdh-export'); ?>" id="id_submit">
-					<div class="tdg-spinner" id="id_spinner"></div>
+					<div class="tdh-spinner" id="id_spinner"></div>
 				</div>
 			</form>
 		</div>
