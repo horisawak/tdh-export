@@ -3,7 +3,7 @@ Contributors: horisawak
 Donate link: https://www.paypal.com/paypalme/horisawak/
 Tags: tdh, title tag, meta, meta description, h tag, tdh export, tdh pickup, seo
 Requires at least: 4.7
-Tested up to: 5.8
+Tested up to: 6.0
 Stable tag: 1.0.4
 Requires PHP: 7.0
 License: GPLv2 or later
@@ -49,7 +49,7 @@ Only public pages will export TDH. If you want to export TDH for non-public page
 
 = Why do I get an authentication error? =
 
-If you are using authentication functions on your site, you may not be able to export TDH. In that case, please log in to the site once and try again without closing your browser.
+If you are using authentication functions on your site, you may not be able to export TDH. In that case, please log in to the site once and try again without closing your browser. Unfortunately, "Digest Authentication" isn't supported.
 
 = Where can I report bugs and issues? =
 Please report bugs and issues on the plugin's [GitHub page](https://github.com/horisawak/tdh-export/).
